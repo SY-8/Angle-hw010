@@ -13,8 +13,8 @@ int main(){
     if (angle > 0){
         double rad = angle *180/PI;
         cout <<"目标距离："<< d << "m" <<endl;
-        cout <<"角度制："<< angle << "度" <<endl;
-        cout <<"弧度制："<< rad << "rad" <<endl;
+        cout <<"抬升角度（弧度制）："<< angle << "rad" <<endl;
+        cout <<"抬升角度（角度制）："<< rad << "度" <<endl;
     }
     return 0;
 }
